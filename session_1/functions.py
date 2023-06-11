@@ -37,17 +37,21 @@
 # input = prompt
 # print(f"So your integer is {input}? Thanks")
 
-#Q2
+#Q2 THIS IS CORRECT AND DOES USE A FUNCTION
 
-celcius_convert = input("What is the temperature (Fahrenheit)? : ")
-print(f"Okay, so the temp in Fahrenheit is {celcius_convert}...")
-def celcius_convert():
-    float(celcius_convert - 32 * 0.556)
-    print (f"Which means the temp in celcius is {float}")
+# temperature = int(input("What is the temperature (Fahrenheit)? : "))
+# print(f"Okay, so the temp in Fahrenheit is {temperature}...")
+# def convert():
+#     answer = float((temperature-32)*5/9)
+#     print(f"Which means the temp in Celcius is {answer}")
+# convert()
+
+# THIS IS CORRECT BUT DOES NOT USE A FUNCTION ... 
+# temperature = int(input("What is the temperature (Fahrenheit)? : "))
+# print(f"Okay, so the temp in Fahrenheit is {temperature}...")
+# answer = float((temperature-32)*5/9)
+# print(f"Which means the temp in Celcius is {answer}")
 
 
-
-
-# Convert Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9). 
-
+# Q3 
 

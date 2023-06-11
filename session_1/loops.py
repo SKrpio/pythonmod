@@ -166,3 +166,54 @@
 #     total += number
 # print (total)
 
+# For Loops Q3  - I did it!
+# digits = (1, 2, 3, 4)
+# for number in digits:
+#     print(sum(digits))
+#     break
+
+
+# def add(number1, number2): #number1 = 2 number2 = 3 
+#     result = number1 + number2
+#     return result
+# answer = add(2,3) 
+# print(answer)
+
+# For Loops Q4 - I DID IT
+# start = ("A little bit of")
+# mambo = ["Monica in my life", "Erica by my side","Rita's all I need", "Tina's what I see", "Sandra in the sun",    
+# "Mary having fun", "Jessica here I am"]
+# for mambo in mambo:
+#  print(start, mambo)
+# print("a little bit of you makes me your man (ah!)")
+# print("*trumpet solo")
+
+
+# alphabet = ['a' ,'b', 'c']
+# for letter in alphabet:
+#     print(letter)
+
+
+# for i in range(1, 5):
+#  print(i)
+
+#Nested Loops Q1
+
+list = [
+'Spinch' == 2.78,    
+'Chocolate' == 3.70,       
+'Bread' == 2.10,    
+'Carrots' == 0.56,    
+'Apples' == 3.08,
+]
+Spinach = input ("Please enter the quantity for Spinach: ")
+# Chocolate = input("Please enter the quantity for Chocolate: ")
+# Bread = input("Please enter the quantity for Bread : ")
+# Carrots = input("Please enter the quantity for Carrots : ")
+# Apples = input("Please enter the quantity for Apples : ")
+
+for Spinch in list:
+  result =  Spinach * (list[0])
+  print(result)
+
+
