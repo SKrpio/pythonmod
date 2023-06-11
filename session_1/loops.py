@@ -57,11 +57,11 @@
 #  i += 1
 
 # THIS IS RIGHT BUT NOT FINISHED
-answer = ''
-while answer != '22':
-    print('Guess my number?')
-    answer = input()
-print('Yes, the answer is ' + answer + '. You may enter.')
+# answer = ''
+# while answer != '22':
+#     print('Guess my number?')
+#     answer = input()
+# print('Yes, the answer is ' + answer + '. You may enter.')
 
 
 ## YOUTUBE TUTORIAL THAT STILL FAILED
@@ -86,18 +86,26 @@ print('Yes, the answer is ' + answer + '. You may enter.')
 #         int(input("Too high, guess again?"))
 #         break
 
-n = 22
-guess = int(input("Guess my number: "))
-while n != guess:
-    if guess < n:
-        print("Too low")
-        guess = int(input("Guess again?"))
-    elif guess > n:
-        print("too high")
-        guess = int(input('Guess again?'))
-    else:
-        break
-print("You guessed it!")
+# answer = 22
+# guess = int(input("Guess my number: "))
+# while answer != guess:
+#     if guess < answer:
+#         print("Too low")
+#         guess = int(input("Guess again?"))
+#     elif guess > answer:
+#         print("too high")
+#         guess = int(input('Guess again?'))
+#     else:
+#         break
+# print("You guessed it!")
+
+# Q2 ORIYAN'S C0DE
+# print("The first number is 0")
+# large_number = int(input("Enter a number: "))
+# while large_number > 0:
+#     if(large_number % 2 != 0):
+#         print(large_number)
+#     large_number = large_number - 1
 
 # MY BOYFRIEND'S HELPING ME NOW - STILL NOT FINISHED THO
 # answer = ''
@@ -107,13 +115,10 @@ print("You guessed it!")
 #     input == guess
 # print('Yes, the answer is ' + answer + '. You may enter.')
 
-
-
 # count = 0
 # while count <= 6: 
 #     print("Hello")
 #     count = count + 1
-
 
 
 # count = int(input("Enter a number"))
@@ -145,4 +150,19 @@ print("You guessed it!")
 # num = input ("Enter a number")
 # secondnum = input ("Enter a number")
 # print(f"Your numbers sum to{num + secondnum}")
+
+
+# For Loops - Q1 - Cinzia's Code 
+
+# to_multiply = int(input("Give me a number: "))
+# for number in range(1,11):
+#     print(f"{to_multiply} x {number} = {to_multiply*number}")
+
+# For Loops - Q2 - Maya 
+
+# max_number = int(input("Enter number and ill add up everything before it"))
+# total = 0 
+# for number in range(0, max_number+1):
+#     total += number
+# print (total)
 
