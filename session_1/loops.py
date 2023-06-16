@@ -199,21 +199,40 @@
 
 #Nested Loops Q1
 
-list = [
-'Spinch' == 2.78,    
-'Chocolate' == 3.70,       
-'Bread' == 2.10,    
-'Carrots' == 0.56,    
-'Apples' == 3.08,
-]
-Spinach = input ("Please enter the quantity for Spinach: ")
-# Chocolate = input("Please enter the quantity for Chocolate: ")
-# Bread = input("Please enter the quantity for Bread : ")
-# Carrots = input("Please enter the quantity for Carrots : ")
-# Apples = input("Please enter the quantity for Apples : ")
+groceries = [   
+     ["Baby Spinach", 2.78],   
+     ["Hot Chocolate", 3.70],    
+     ["BBQ Shapes", 9.00],   
+     ["Bread", 2.10],    
+     ["Carrots", 0.56],    
+     ["Oranges", 3.08]
+     ]
 
-for Spinch in list:
-  result =  Spinach * (list[0])
-  print(result)
+# total_price = 0
+
+# # loop first time
+# Spinach = input("How many Baby Spinach? : ")
+# total_price = total_price + (int(Spinach) *2.78  )
+
+# # loop second time
+# Chocolate = input("How many Chocolate? : ")
+# total_price = total_price + (int(Chocolate) * 3.70)
+
+# # loop third time
+# Bread = input("How many Bread? : ")
+# total_price = total_price + (int(Bread) * 2.10)
 
 
+total_price = 0
+for ingredient_and_price_list in groceries:
+    # ingredient_and_price_list = ['Baby Spinach', 2.78]
+    # ingredient_and_price_list = ['Hot Chocolate', 3.7]
+    # input line
+    ingredient = input(f'How many {ingredient_and_price_list[0]}:')
+    # totaly price math
+    total_price = total_price + (int(ingredient) * ingredient_and_price_list[1])
+
+# for grocery in groceries:
+#     print('loop start')
+#     print(grocery)
+#     print('loop end')
