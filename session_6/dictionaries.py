@@ -82,23 +82,24 @@
 # answer = float(spinach_total + chocolate_total + crackers_total + coffee_total)
 # print(f"My groceries cost me {answer} ")
 
-# Q2  - Doesn't use dictionary  .. ..
+# Q2  - failed attempt
 
-colour_counts = {
-    "blue": 0,
-    "green": 0,
-    "yellow": 0,
-    "red": 0,
-    "purple": 0,
-    "orange": 0,
-    }
+# colour_counts = {
+#     "blue": 0,
+#     "green": 0,
+#     "yellow": 0,
+#     "red": 0,
+#     "purple": 0,
+#     "orange": 0,
+#     }
 
-import csv
-with open('colours_865.csv', newline='') as csvfile:
-    data = csv.DictReader(csvfile)
-    for colour_counts in data:
-        print(f"Appeared {colour_counts} times")
+# import csv
+# with open('colours_865.csv', newline='') as csvfile:
+#     data = csv.DictReader(csvfile)
+#     for colour_counts in data:
+#         print(f"Appeared {colour_counts} times")
 
+# Q2 not using dictionary
 # yellow = "Yellow"
 # green = "Green"
 # blue = "Blue"
@@ -114,3 +115,8 @@ with open('colours_865.csv', newline='') as csvfile:
 
 # total = yellow_count + green_count + blue_count
 # print(f"Yellow, Green & Blue appeared {total} times")
+
+# Q3 
+# file = open("colours_20_simple.csv", mode = "r")
+# read_data = file.read()
+
