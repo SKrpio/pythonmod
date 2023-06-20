@@ -223,14 +223,14 @@ groceries = [
 # total_price = total_price + (int(Bread) * 2.10)
 
 
-total_price = 0
-for ingredient_and_price_list in groceries:
-    # ingredient_and_price_list = ['Baby Spinach', 2.78]
-    # ingredient_and_price_list = ['Hot Chocolate', 3.7]
-    # input line
-    ingredient = input(f'How many {ingredient_and_price_list[0]}:')
-    # totaly price math
-    total_price = total_price + (int(ingredient) * ingredient_and_price_list[1])
+# total_price = 0
+# for ingredient_and_price_list in groceries:
+#     # ingredient_and_price_list = ['Baby Spinach', 2.78]
+#     # ingredient_and_price_list = ['Hot Chocolate', 3.7]
+#     # input line
+#     ingredient = input(f'How many {ingredient_and_price_list[0]}:')
+#     # totaly price math
+#     total_price = total_price + (int(ingredient) * ingredient_and_price_list[1])
 
 # for grocery in groceries:
 #     print('loop start')

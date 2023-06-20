@@ -5,7 +5,7 @@
 #     for row in csv_reader:
 #         print(row)
 
-import csv
-with open(file="hello.csv",mode="w") as my_file:
-    csv_writer = csv.writer(my_file)
-    csv_writer.writerow("Hello")
+# import csv
+# with open(file="hello.csv",mode="w") as my_file:
+#     csv_writer = csv.writer(my_file)
+#     csv_writer.writerow("Hello")
